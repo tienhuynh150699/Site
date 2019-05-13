@@ -1,0 +1,58 @@
+﻿<%@ Master Language="VB" CodeFile="PhầnXe.master.vb" Inherits="masterPage_PhầnXe" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style3 {
+            width: 100%;
+        }
+        .auto-style4 {
+            height: 22px;
+        }
+        .auto-style5 {
+            width: 239px;
+            height: 113px;
+        }
+        .auto-style6 {
+            margin-bottom: 38px;
+        }
+        .auto-style7 {
+            width: 245px;
+            height: 146px;
+        }
+        .auto-style8 {
+            width: 247px;
+            height: 126px;
+        }
+        body {
+    top: 0;
+    left: 0;
+    background-color: #FFCCFF;
+}
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table class="auto-style3">
+            <tr>
+                <td class="auto-style4">Chọn chiếc xe bạn muốn:</td>
+                <td class="auto-style4"></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

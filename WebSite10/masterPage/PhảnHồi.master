@@ -1,0 +1,40 @@
+﻿<%@ Master Language="VB" CodeFile="PhảnHồi.master.vb" Inherits="masterPage_PhảnHồi" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style3 {
+            width: 100%;
+        }
+        .auto-style4 {
+            text-align: center;
+        }
+        body {
+    top: 0;
+    left: 0;
+    background-color: #99FFFF;
+}
+    </style>
+</head>
+<body>
+    <table class="auto-style3">
+        <tr>
+            <td>
+                <h1 class="auto-style4">Hỗ trợ Phản Hồi</h1>
+            </td>
+        </tr>
+    </table>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,95 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="masterPage_MasterPage" %>
+
+<%@ Register src="../Banner/Banner.ascx" tagname="Banner" tagprefix="uc1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+    <script src="../mojen/modernizr.2.6.2.js"></script>
+    <%--<style type="text/css">
+        .auto-style1 {
+            height: 718px;
+        }
+        .auto-style2 {
+            height: 599px;
+            width: 1433px;
+        }
+        .auto-style3 {
+            height: 535px;
+            width: 981px;
+        }
+        .auto-style5 {
+            height: 314px;
+            width: 981px;
+            text-align: center;
+        }
+        .auto-style6 {
+            text-align: center;
+            font-size: 48pt;
+        }
+        .auto-style7 {
+            width: 1380px;
+            height: 257px;
+        }
+        .auto-style8 {
+            text-align: center;
+        }
+        .auto-style9 {
+            font-size: large;
+        }
+    </style>--%>
+    <style type="text/css">
+        .auto-style1 {
+            color: #FF0000;
+        }
+    </style>
+</head>
+<body>
+    
+    <form id="form1" runat="server">
+    <div>
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style2">
+                    <h1 class="auto-style1" >Trang web gọi xe Grap Online</h1>
+                    <img src="../Img/Grap/0.jpg"  />
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" Orientation="Horizontal">                    
+                    </asp:Menu>
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" ShowStartingNode="False" />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style3"><a href="../Default4.aspx">Hướng dẫn tải và sử dụng</a><br />
+                    </td>
+                <td class="auto-style4">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            <p>
+                Phần Nội dung</p>
+        </asp:ContentPlaceHolder>
+                </td>
+                <td class="auto-style5"><span><strong>Đổi màu Web:</strong></span><br />
+                    <asp:DropDownList ID="ThemeList" runat="server" AutoPostBack="True">
+                        <asp:ListItem>Monochrome</asp:ListItem>
+                        <asp:ListItem>DarkGrey</asp:ListItem>
+                    </asp:DropDownList>
+                    <br />
+                    <br />
+                    <br />
+                    <uc1:Banner ID="Banner1" runat="server" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,49 @@
+﻿body {
+    font-family: Arial;
+    height: auto;
+    background: #00a850;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.auto-style1 {
+    background: #00a850;
+    padding: 1%;
+}
+
+.auto-style2 {
+    width: 100%;
+    text-align: center;
+}
+
+.auto-style3 {
+    float: left;
+    background: white;
+}
+
+.auto-style4 {
+    background: #00a850;
+    float: left;
+    width: 60%;
+    margin: 1% 0% 0% 2%;
+    padding: 1%;
+    border: solid white;
+    text-align: center;
+}
+
+    .auto-style4 img {
+        width: 20%;
+    }
+
+.auto-style5 {
+    float: left;
+    margin: 1% 0% 0% 2%;
+    padding: 1%;
+    background: white;
+}

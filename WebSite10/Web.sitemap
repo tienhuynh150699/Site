@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0">
+  <siteMapNode title ="Linker">
+  <siteMapNode url="Web.aspx" title="Trang Chủ" description="">
+  </siteMapNode>
+    <siteMapNode url="Default3.aspx" title="Phản hồi" description="">
+  </siteMapNode>
+    <siteMapNode url="Default4.aspx" title="Hướng dẫn sử dụng" description="">
+  </siteMapNode>
+      <siteMapNode url="Default5.aspx" title="Đăng ký" description="">
+      </siteMapNode>
+  </siteMapNode>
+
+</siteMap>

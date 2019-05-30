@@ -1,5 +1,5 @@
 ﻿
-Partial Class Default3
+Partial Class About_Default
     Inherits System.Web.UI.Page
 
 End Class

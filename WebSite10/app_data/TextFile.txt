@@ -1,0 +1,4 @@
+﻿Xin chào,
+Đây là thông tin một người dùng vừa đăng nhập vào tài khoản Grap:
+Tên:							##Name##
+Mật khẩu                        ##Password##

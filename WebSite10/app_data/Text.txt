@@ -1,0 +1,6 @@
+﻿Xin chào,
+Đây là thông tin một người dùng vừa đăng ký tài khoản Grap:
+Tên:							##Name##
+Email:							##Email##
+Số điện thoại cá nhân:			##PhoneBusiness##
+Biển số xe:						##Number##

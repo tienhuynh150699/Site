@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/masterPage/MasterPage.master" AutoEventWireup="false" CodeFile="Temporary.aspx.vb" Inherits="$relurlnamespace$_$safeitemname$" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/masterPage/MasterPage.master" AutoEventWireup="false" CodeFile="Temporary.aspx.vb" Inherits="$relurnamespace$_$safeitemname$" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>

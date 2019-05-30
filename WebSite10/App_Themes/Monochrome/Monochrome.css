@@ -13,7 +13,7 @@ img {
 }
 
 .auto-style1 {
-    background: #00a850;
+    background: #33FFFF;
     padding: 1%;
 }
 
@@ -28,7 +28,7 @@ img {
 }
 
 .auto-style4 {
-    background: #00a850;
+    background: #99FFFF;
     float: left;
     width: 60%;
     margin: 1% 0% 0% 2%;
@@ -45,5 +45,8 @@ img {
     float: left;
     margin: 1% 0% 0% 2%;
     padding: 1%;
-    background: white;
+    background: #808080;
+}
+.ErrorMessage {
+    color: Red;
 }

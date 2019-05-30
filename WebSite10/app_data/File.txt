@@ -1,0 +1,12 @@
+﻿Xin chào,
+Đây là thông tin một người dùng vừa gửi đến Site:
+
+Tên:							##Name##
+
+Email:							##Email##
+
+Số điện thoại cá nhân:			##PhoneHome##
+
+Số điện thoại cơ quan:			##PhoneBusiness##
+
+Chú thích:						##Comments##

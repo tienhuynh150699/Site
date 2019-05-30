@@ -1,7 +1,7 @@
 ﻿body {
     font-family: Arial;
     height: auto;
-    background: #00a850;
+    background: #666666;
 }
 
 a {
@@ -29,7 +29,7 @@ img {
 }
 
 .auto-style4 {
-    background: #00a850;
+    background: ##c7c5f3;
     float: right;
     width: 60%;
     margin: 1% 0% 0% 2%;
@@ -47,4 +47,7 @@ img {
     margin: 1% 0% 0% 2%;
     padding: 1%;
     background: white;
+}
+.ErrorMessage {
+    color: red;
 }
